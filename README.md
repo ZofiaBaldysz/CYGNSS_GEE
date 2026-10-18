@@ -50,4 +50,42 @@ The notebooks use Python and Google Earth Engine.
 - numpy
 - colormaps
 
+All dependencies and requirements are listed in requirements.txt.
+## Installation and Setup
+
+1. Clone or download this repository.
+2. Create and activate a Python environment.
+3. Install the required dependencies:
+    pip install -r requirements.txt
+4. In each notebook replace 'project_name'  with your Google Cloud project ID configured for Earth Engine.
+5. Open the notebooks in JupyterLab or another compatible Jupyter environment.
+
+## Notebooks and Usage
+
+### 1. CYGNSS Visualization
+
+File: notebooks/simple_plot_CYGNSS.ipynb
+
+Purpose:
+
+Display CYGNSS data on interactive maps.
+
+## Important Considerations
+While further working with CYGNSS data in GEE please note that  all bands in 'projects/sat-io/open-datasets/CYGNSS/inundation' collection are encoded as 8-bit integers representing values between 0 and 255. The valid range for fractional inundation values (for both 1-day observations and 3-day inundation maps) is 0–100, encoded as a percentage of the grid-cell area. To get actual fractions, one needs to divide this value by 100. The valid range of anomaly bands (both 1-day inundation anomalies and 3-day interpolated inundation anomalies) is 0–200. For an encoded value x, the anomaly fraction is (x − 100)/100. The resulting anomaly fractions range
+from −1 to 1. Pixels with no valid data are assigned a value of 255.
+
+This preprocessing procedure is implemented by the 'mask_inundation(image)' and 'mask_anomalies(image)' definitions, in each of the notebooks.
+
+## Citation
+If you use this repository in research, please cite the repository and the original CYGNSS and comparison-dataset publications.
+
+Repository citation: [Add the preferred citation, DOI, or repository URL.]
+Paper citation: 
+
+## Contact
+
+For questions or suggestions, please ...
+
+
+
 
