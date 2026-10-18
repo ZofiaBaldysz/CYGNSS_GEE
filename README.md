@@ -4,3 +4,12 @@
 This repository contains a collection of Jupyter notebooks for visualizing, analyzing, and comparing CYGNSS data with other geospatial datasets available through Google Earth Engine (GEE).
 The notebooks are designed to support the exploration of CYGNSS observations, the analysis of their spatial and temporal patterns, and comparisons with complementary Earth observation or environmental datasets.
 The repository provides a reproducible workflow for accessing geospatial data, generating visualizations, and conducting comparative analyses using Python and Google Earth Engine.
+
+## Objectives
+This project will help you to start wotk with CYGNSS data in GEE environment. The main objectives of this project are to:
+
+- Visualize CYGNSS data and explore its spatial distribution.
+- Analyze the spatial and temporal characteristics of CYGNSS observations.
+- Compare CYGNSS data with selected datasets available in Google Earth Engine.
+- Generate maps, plots, and summary statistics to support data interpretation.
+- Provide reusable Jupyter notebooks for geospatial analysis and research.
