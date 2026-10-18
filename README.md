@@ -37,3 +37,17 @@ This project uses couple of geospatial datasets available at GEE. These are:
 - enhanced vegetation index: MODIS Terra vegetation indices (EVI) provided as 16-day composites at 250 m spatial resolution (MODIS/061/MOD13Q1)
 - land cover: ESA WorldCover global land cover map for 2021, distinguishing 11 land cover classes at 10 m spatial resolution (ESA/WorldCover/v200)
 - population density: WorldPop gridded population data providing estimates of the number of people per grid cell at approximately 100 m spatial resolution (WorldPop/GP/100m/pop)
+
+## Requirements
+
+The notebooks use Python and Google Earth Engine. 
+1. It is necessarry to install earthengine.api and create an account with aproject at Google Earth Engine. 
+2. To properly run the notebooks it is necesarry to create an environment with:
+- ee
+- geemap
+- cmocean
+- matplotlib
+- numpy
+- colormaps
+
+
