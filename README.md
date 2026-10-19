@@ -65,6 +65,7 @@ All dependencies and requirements are listed in requirements.txt.
 ### 1. Simple CYGNSS Visualization
 
 File: [Simple plot of CYGNSS data](Notebooks/simple_plot_CYGNSS.ipynb)
+File: (Notebooks/simple_plot_CYGNSS.ipynb)
 
 Purpose: This code enables simply visualisation of different UCAR/CU CYGNSS v3.2 bands on interactive maps with different backgrouns. E.g.:
 
