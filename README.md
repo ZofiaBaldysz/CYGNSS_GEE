@@ -66,7 +66,7 @@ All dependencies and requirements are listed in requirements.txt.
 
 File: [Notebooks/simple_plot_CYGNSS_data](Notebooks/simple_plot_CYGNSS.ipynb)
 
-Purpose: This code enables simply visualisation of different UCAR/CU CYGNSS v3.2 bands on interactive maps with different backgrouns. E.g.:
+Purpose: This code allows users to visualize different UCAR/CU CYGNSS v3.2 bands on interactive maps with various background layers. For example:
 
 - 3-day interpolated fractional inundation from November 7, 2025:
 ![Simple plot of fractional inundation over South America](Figures/Simple_plot_South_America_fractional_inundation.png)
@@ -77,6 +77,10 @@ Purpose: This code enables simply visualisation of different UCAR/CU CYGNSS v3.2
 ### 2. CYGNSS flood detection using splitmaps
 
 File: notebooks/simple_plot_CYGNSS.ipynb
+
+Purpose: This code allows users to visualize UCAR/CU CYGNSS v3.2 1-day fractional inundation anomalies for two consecutive days using a split-screen map with two panels, enabling quick comparison of inundation conditions:
+
+
 
 ## Important Considerations
 While further working with CYGNSS data in GEE please note that  all bands in 'projects/sat-io/open-datasets/CYGNSS/inundation' collection are encoded as 8-bit integers representing values between 0 and 255. The valid range for fractional inundation values (for both 1-day observations and 3-day inundation maps) is 0–100, encoded as a percentage of the grid-cell area. To get actual fractions, one needs to divide this value by 100. the resulting inundation fraction range is 0-1. The valid range of anomaly bands (both 1-day inundation anomalies and 3-day interpolated inundation anomalies) is 0–200. For an encoded value x, the anomaly fraction is (x − 100)/100. The resulting anomaly fractions range from −1 to 1. Pixels with no valid data are assigned a value of 255.
