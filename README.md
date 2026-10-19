@@ -71,8 +71,7 @@ Purpose:
 Display CYGNSS data on interactive maps.
 
 ## Important Considerations
-While further working with CYGNSS data in GEE please note that  all bands in 'projects/sat-io/open-datasets/CYGNSS/inundation' collection are encoded as 8-bit integers representing values between 0 and 255. The valid range for fractional inundation values (for both 1-day observations and 3-day inundation maps) is 0–100, encoded as a percentage of the grid-cell area. To get actual fractions, one needs to divide this value by 100. The valid range of anomaly bands (both 1-day inundation anomalies and 3-day interpolated inundation anomalies) is 0–200. For an encoded value x, the anomaly fraction is (x − 100)/100. The resulting anomaly fractions range
-from −1 to 1. Pixels with no valid data are assigned a value of 255.
+While further working with CYGNSS data in GEE please note that  all bands in 'projects/sat-io/open-datasets/CYGNSS/inundation' collection are encoded as 8-bit integers representing values between 0 and 255. The valid range for fractional inundation values (for both 1-day observations and 3-day inundation maps) is 0–100, encoded as a percentage of the grid-cell area. To get actual fractions, one needs to divide this value by 100. the resulting inundation fraction range is 0-1. The valid range of anomaly bands (both 1-day inundation anomalies and 3-day interpolated inundation anomalies) is 0–200. For an encoded value x, the anomaly fraction is (x − 100)/100. The resulting anomaly fractions range from −1 to 1. Pixels with no valid data are assigned a value of 255.
 
 This preprocessing procedure is implemented by the 'mask_inundation(image)' and 'mask_anomalies(image)' definitions, in each of the notebooks.
 
