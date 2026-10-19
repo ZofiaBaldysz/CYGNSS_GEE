@@ -88,13 +88,19 @@ Purpose: This code allows users to visualize UCAR/CU CYGNSS v3.2 1-day fractiona
 
 ### 3. CYGNSS cross-analysis with different GEE geospatial data
 
-- File: [Notebooks/plot_cygnss_vs_rain](Notebooks/plot_cygnss_vs_rain.ipynb)
+- File: [Notebooks/plot_cygnss_vs_rain](Notebooks/plot_CYGNSS_vs_rain.ipynb)
 
 Purpose: This code allows users to simultaneously visualize CYGNSS 1-day fractional inundation anomalies and accumulated precipitation data from selected period.
 
 1-day fractional inundation anomalies and 3-day accumulated precipitation:
 ![CYGNSS vs rain visualisation](Figures/CYGNSS_with_GEE_rain.png)
 
+- File: [Notebooks/plot_cygnss_vs_rain](Notebooks/plot_CYGNSS_vs_EVI.ipynb)
+
+Purpose: This code allows users to simultaneously visualize CYGNSS 1-day fractional inundation anomalies and accumulated precipitation data from selected period.
+
+1-day fractional inundation anomalies and 3-day accumulated precipitation:
+![CYGNSS vs rain visualisation](Figures/CYGNSS_with_GEE_rain.png)
 
 
 
