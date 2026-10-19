@@ -68,10 +68,10 @@ File: [Notebooks/simple_plot_CYGNSS_data](Notebooks/simple_plot_CYGNSS.ipynb)
 
 Purpose: This code allows users to visualize different UCAR/CU CYGNSS v3.2 bands on interactive maps with various background layers. For example:
 
-- 3-day interpolated fractional inundation from November 7, 2025:
+3-day interpolated fractional inundation from November 7, 2025:
 ![Simple plot of fractional inundation over South America](Figures/Simple_plot_South_America_fractional_inundation.png)
 
-- 1-day fractional inundation from November 7, 2025 over Sentinel RGB (B4/B3/B2) background:
+1-day fractional inundation from November 7, 2025 over Sentinel RGB (B4/B3/B2) background:
 ![Simple plot of fractional inundation over Makgadikgadi,](Figures/Simple_plot_Makgadikgadi,_fractional_inundation.png)
 
 ### 2. CYGNSS flood detection using splitmaps
@@ -88,20 +88,26 @@ Purpose: This code allows users to visualize UCAR/CU CYGNSS v3.2 1-day fractiona
 
 ### 3. CYGNSS cross-analysis with different GEE geospatial data
 
-File: [Notebooks/plot_CYGNSS_vs_rain](Notebooks/plot_CYGNSS_vs_rain.ipynb)
+- File: [Notebooks/plot_CYGNSS_vs_rain](Notebooks/plot_CYGNSS_vs_rain.ipynb)
 
 Purpose: This code allows users to simultaneously visualize CYGNSS 1-day fractional inundation anomalies and accumulated precipitation data from selected period.
 
 1-day fractional inundation anomalies and 3-day accumulated precipitation:
 ![CYGNSS vs rain visualisation](Figures/CYGNSS_with_GEE_rain.png)
 
-File: [Notebooks/plot_CYGNSS_vs_EVI](Notebooks/plot_CYGNSS_vs_EVI.ipynb)
+- File: [Notebooks/plot_CYGNSS_vs_EVI](Notebooks/plot_CYGNSS_vs_EVI.ipynb)
 
 Purpose: This code allows users to create split-screen maps comparing UCAR/CU CYGNSS v3.2 3-day interpolated fractional inundation data with the MODIS Enhanced Vegetation Index (EVI) over a selected time period.
 
 3-day interpolated fractional inundation maps and EVI from 1-14 March, 2025:
 ![CYGNSS vs EVI visualisation](Figures/CYGNSS_with_GEE_EVI.png)
 
+- File: [Notebooks/plot_CYGNSS_vs_EVI](Notebooks/plot_CYGNSS_vs_EVI.ipynb)
+
+Purpose: This code allows users to create split-screen maps comparing UCAR/CU CYGNSS v3.2 3-day interpolated fractional inundation data with the MODIS Enhanced Vegetation Index (EVI) over a selected time period.
+
+3-day interpolated fractional inundation maps and EVI from 1-14 March, 2025:
+![CYGNSS vs EVI visualisation](Figures/CYGNSS_with_GEE_EVI.png)
 
 
 
