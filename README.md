@@ -78,7 +78,11 @@ Purpose: This code allows users to visualize different UCAR/CU CYGNSS v3.2 bands
 
 File: notebooks/simple_plot_CYGNSS.ipynb
 
-Purpose: This code allows users to visualize UCAR/CU CYGNSS v3.2 1-day fractional inundation anomalies for two consecutive days using a split-screen map with two panels, enabling quick comparison of inundation conditions:
+Purpose: This code allows users to visualize UCAR/CU CYGNSS v3.2 1-day fractional inundation anomalies and 3-day interpolated fractional inundation maps for different time periods using a split-screen map with two panels, enabling quick comparison of inundation conditions. For example:
+
+- 1-day fractional inundation anomalies between 13 and 14 November 2025:
+![Split map for two consecutive days over south Sumatra](Figures/Simple_plot_South_America_fractional_inundation.png)
+
 
 
 
