@@ -109,6 +109,13 @@ Purpose: This code allows users to create split-screen maps comparing UCAR/CU CY
 3-day interpolated fractional inundation maps and ESA Landcover from 1-14 March, 2025:
 ![CYGNSS vs landcover visualisation](Figures/CYGNSS_with_GEE_landcover.png)
 
+- File: [Notebooks/plot_CYGNSS_vs_population](Notebooks/plot_CYGNSS_vs_population.ipynb)
+
+Purpose: This code allows users to compare UCAR/CU CYGNSS v3.2 1-day fractional inundation anomalies data with the population data, to better access potential socio-economic impact of enhanced inundation.
+
+1-day interpolated fractional inundation anomalies and WorldPop population:
+![CYGNSS vs population visualisation](Figures/CYGNSS_with_GEE_population.png)
+
 
 
 
