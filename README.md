@@ -84,15 +84,16 @@ Purpose: This code allows users to visualize UCAR/CU CYGNSS v3.2 1-day fractiona
 ![Split map for two consecutive days over south Sumatra](Figures/split_map_south_Sumatra.png)
 
 - 3-day interpolated fractional inundation maps averaged over April and October 2019-2025, over delta Mekong:
-- ![Split map for two different months over Mekong river](Figures/split_map_Mekong.png)
+![Split map for two different months over Mekong river](Figures/split_map_Mekong.png)
 
 ### 3. CYGNSS cross-analysis with different GEE geospatial data
 
-File:
+- File: [Notebooks/plot_cygnss_vs_rain](Notebooks/plot_cygnss_vs_rain.ipynb)
 
 Purpose: This code allows users to simultaneously visualize CYGNSS 1-day fractional inundation anomalies and accumulated precipitation data from selected period.
 
 1-day fractional inundation anomalies and 3-day accumulated precipitation:
+![CYGNSS vs rain visualisation](Figures/CYGNSS_with_GEE_rain.png)
 
 
 
