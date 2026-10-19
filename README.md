@@ -80,22 +80,22 @@ File: [Notebooks/split_map](Notebooks/split_map.ipynb)
 
 Purpose: This code allows users to visualize UCAR/CU CYGNSS v3.2 1-day fractional inundation anomalies and 3-day interpolated fractional inundation maps for different time periods using a split-screen map with two panels, enabling quick comparison of inundation conditions. For example:
 
-- 1-day fractional inundation anomalies between 13 and 14 November 2025:
+1-day fractional inundation anomalies between 13 and 14 November 2025:
 ![Split map for two consecutive days over south Sumatra](Figures/split_map_south_Sumatra.png)
 
-- 3-day interpolated fractional inundation maps averaged over April and October 2019-2025, over delta Mekong:
+3-day interpolated fractional inundation maps averaged over April and October 2019-2025, over delta Mekong:
 ![Split map for two different months over Mekong river](Figures/split_map_Mekong.png)
 
 ### 3. CYGNSS cross-analysis with different GEE geospatial data
 
-- File: [Notebooks/plot_CYGNSS_vs_rain](Notebooks/plot_CYGNSS_vs_rain.ipynb)
+File: [Notebooks/plot_CYGNSS_vs_rain](Notebooks/plot_CYGNSS_vs_rain.ipynb)
 
 Purpose: This code allows users to simultaneously visualize CYGNSS 1-day fractional inundation anomalies and accumulated precipitation data from selected period.
 
 1-day fractional inundation anomalies and 3-day accumulated precipitation:
 ![CYGNSS vs rain visualisation](Figures/CYGNSS_with_GEE_rain.png)
 
-- File: [Notebooks/plot_CYGNSS_vs_EVI](Notebooks/plot_CYGNSS_vs_EVI.ipynb)
+File: [Notebooks/plot_CYGNSS_vs_EVI](Notebooks/plot_CYGNSS_vs_EVI.ipynb)
 
 Purpose: This code allows users to create split-screen maps comparing UCAR/CU CYGNSS v3.2 3-day interpolated fractional inundation data with the MODIS Enhanced Vegetation Index (EVI) over a selected time period.
 
